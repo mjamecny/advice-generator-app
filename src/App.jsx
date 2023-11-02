@@ -33,11 +33,11 @@ export default function App() {
           <p className="advice__text">“{advice}”</p>
           <picture>
             <source
-              srcset="pattern-divider-mobile.svg"
+              srcSet="pattern-divider-mobile.svg"
               media="(max-width: 34em)"
             />
             <img
-              class="advice__divider"
+              className="advice__divider"
               src="pattern-divider-desktop.svg"
               alt="divider"
             />
